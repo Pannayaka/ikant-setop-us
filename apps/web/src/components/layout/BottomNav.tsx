@@ -153,7 +153,7 @@ export function BottomNav() {
   const pathname = usePathname();
 
   const isActive = (item: (typeof NAV_ITEMS)[number]) =>
-    item.matchPaths.some((p) => pathname === p || (p !== "/" && pathname.startsWith(p)));
+    item.matchPaths.some((p) => pathname === p);
 
   return (
     <>
@@ -221,7 +221,10 @@ export function BottomNav() {
                     width: "4px",
                     height: "4px",
                     borderRadius: "50%",
-                    background: item.label === "Keluar" ? "var(--warn-orange)" : "var(--accent-primary)",
+                    background:
+                      item.label === "Keluar"
+                        ? "var(--warn-orange)"
+                        : "var(--accent-primary)",
                     boxShadow: `0 0 8px ${item.label === "Keluar" ? "var(--warn-orange)" : "var(--accent-primary)"}`,
                   }}
                 />
@@ -237,12 +240,11 @@ export function BottomNav() {
                 style={{
                   fontSize: "11px",
                   fontWeight: active ? 600 : 400,
-                  color:
-                    active
-                      ? item.label === "Keluar"
-                        ? "var(--warn-orange)"
-                        : "var(--accent-primary)"
-                      : "var(--text-muted)",
+                  color: active
+                    ? item.label === "Keluar"
+                      ? "var(--warn-orange)"
+                      : "var(--accent-primary)"
+                    : "var(--text-muted)",
                   fontFamily: "var(--font-body)",
                   letterSpacing: active ? "0.04em" : "0",
                   transition: "color 0.15s ease",
