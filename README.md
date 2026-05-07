@@ -6,13 +6,13 @@ Website untuk mencatat pemasukan dan pengeluaran ikan di cold storage. Aplikasi 
 
 Aplikasi ini mencatat:
 
-- Stok ikan masuk ke cold storage
-- Data jenis ikan
-- Lokasi cold storage
-- Stok FIFO
-- Pencatatan ikan keluar
-- Ringkasan dashboard
-- Riwayat pengeluaran sederhana
+- stok ikan masuk ke cold storage
+- data jenis ikan
+- lokasi cold storage
+- stok FIFO
+- pencatatan ikan keluar
+- ringkasan dashboard
+- riwayat pengeluaran sederhana
 
 Tujuan utama adalah membuktikan alur end-to-end:
 `input stok masuk → data tersimpan → stok tampil berdasarkan FIFO → stok keluar dicatat → dashboard berubah`.
@@ -45,35 +45,12 @@ Tujuan utama adalah membuktikan alur end-to-end:
 - API backend Go Fiber
 - Mobile-first UI
 
-## Link Website
-Website bisa diakses dengan link di bawah ini:
-
-<<<<<<< HEAD
-https://ikant-setop-us.vercel.app
-=======
-Tambahkan variabel berikut di `.env`:
-
-```bash
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8081/api/v1
-```
-
 ## Cara Menjalankan
 
-1. Pasang dependensi:
-```bash
-npm install
-```
-
-2. Jalankan development server:
-```bash
-npm run dev
-```
-
-3. Buka browser dan akses:
+Buka browser dan akses link di bawah ini:
 ```bash
 https://ikant-setop-us.vercel.app
 ```
->>>>>>> 0c76436545e45fc5feef382562d2064e878b9173
 
 ## Tujuan MVP
 
@@ -84,12 +61,8 @@ Frontend MVP ini bertujuan agar alur utama dapat dipakai:
 - Input stok masuk
 - Lihat stok FIFO
 - Catat stok keluar
-<<<<<<< HEAD
-- Lihat perubahan di dashboard
-=======
 - Lihat perubahan di dashboard
 
 ## Catatan
 
 Fitur non-MVP seperti login, role-based access, notifikasi realtime, dan grafik kompleks ditunda untuk prioritas fitur inti.
->>>>>>> 0c76436545e45fc5feef382562d2064e878b9173
