@@ -45,29 +45,11 @@ Tujuan utama adalah membuktikan alur end-to-end:
 - API backend Go Fiber
 - Mobile-first UI
 
-## Environment
-
-Tambahkan variabel berikut di `.env`:
-
-```bash
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8081/api/v1
-```
-
 ## Cara Menjalankan
 
-1. Pasang dependensi:
+Buka browser dan akses link di bawah ini:
 ```bash
-npm install
-```
-
-2. Jalankan development server:
-```bash
-npm run dev
-```
-
-3. Buka browser dan akses:
-```bash
-http://localhost:3000
+https://ikant-setop-us.vercel.app
 ```
 
 ## Tujuan MVP
