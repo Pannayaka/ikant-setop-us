@@ -57,17 +57,7 @@ npm install
 npm run dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser.
-
-### Environment Variables
-
-Buat file `.env.local` di folder `apps/web/`:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8080/api
-```
-
-> Tanpa `.env.local`, aplikasi otomatis menggunakan **mock data** sehingga bisa langsung dijalankan tanpa backend.
+Buka [https://ikant-setop-us.vercel.app](https://ikant-setop-us.vercel.app) di browser.
 
 ---
 
