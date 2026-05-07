@@ -48,7 +48,32 @@ Tujuan utama adalah membuktikan alur end-to-end:
 ## Link Website
 Website bisa diakses dengan link di bawah ini:
 
+<<<<<<< HEAD
 https://ikant-setop-us.vercel.app
+=======
+Tambahkan variabel berikut di `.env`:
+
+```bash
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8081/api/v1
+```
+
+## Cara Menjalankan
+
+1. Pasang dependensi:
+```bash
+npm install
+```
+
+2. Jalankan development server:
+```bash
+npm run dev
+```
+
+3. Buka browser dan akses:
+```bash
+https://ikant-setop-us.vercel.app
+```
+>>>>>>> 0c76436545e45fc5feef382562d2064e878b9173
 
 ## Tujuan MVP
 
@@ -59,4 +84,12 @@ Frontend MVP ini bertujuan agar alur utama dapat dipakai:
 - Input stok masuk
 - Lihat stok FIFO
 - Catat stok keluar
+<<<<<<< HEAD
 - Lihat perubahan di dashboard
+=======
+- Lihat perubahan di dashboard
+
+## Catatan
+
+Fitur non-MVP seperti login, role-based access, notifikasi realtime, dan grafik kompleks ditunda untuk prioritas fitur inti.
+>>>>>>> 0c76436545e45fc5feef382562d2064e878b9173
